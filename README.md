@@ -1,7 +1,7 @@
 # 🍽️ DineSight Restaurant Analytics Dashboard
 
 ### 🚀 Live Demo
-**Click here to view the dashboard:** [PASTE YOUR STREAMLIT APP LINK HERE]
+**Click here to view the dashboard:** [(https://dinesight-analytics-ufumm6ryuzxutbrofywae5.streamlit.app/)]
 
 ---
 
