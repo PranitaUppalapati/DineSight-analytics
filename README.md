@@ -1,13 +1,13 @@
-# 🍽️ DineSight Restaurant Analytics Dashboard
+# DineSight Restaurant Analytics Dashboard
 
-### 🚀 Live Demo
+### Live Demo
 **Click here to view the dashboard:** [(https://dinesight-analytics-ufumm6ryuzxutbrofywae5.streamlit.app/)]
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 **Scenario:**
-As a data analyst for **DineSight Analytics Pvt. Ltd.**, I was tasked with analyzing restaurant order data to help a food delivery platform improve its operations. The goal of this dashboard is to provide actionable insights into customer ordering patterns and restaurant performance to assist with marketing and delivery planning.
+Analyzing restaurant order data to help a food delivery platform improve its operations. The goal of this dashboard is to provide actionable insights into customer ordering patterns and restaurant performance to assist with marketing and delivery planning.
 
 **Objectives:**
 * Analyze large datasets of order details and restaurant information.
@@ -17,7 +17,7 @@ As a data analyst for **DineSight Analytics Pvt. Ltd.**, I was tasked with analy
 
 ---
 
-## 📊 Business Questions & Insights
+## Business Questions & Insights
 This dashboard answers the following key business questions identified during the research phase:
 
 1.  **Who are the market leaders?**
@@ -38,16 +38,14 @@ This dashboard answers the following key business questions identified during th
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 This project was built using **Python** and deployed via **Streamlit Cloud**.
 
 ### Data Processing (ETL)
 * **Data Sources:** Two CSV datasets (`Order_Details.csv` and `Restaurant_Info.csv`).
 * **Data Integration:** Merged the two datasets using the `Restaurant_ID` as the primary key.
-* **Data Cleaning:**
-    * Handled missing values in the Order ID column.
-    * Converted `Order Date` strings into datetime objects for time-series analysis.
-    * Derived new features: `Hour` and `Day_Name` for the heatmap analysis.
+* **Data Cleaning**
+ 
 
 ### Technologies Used
 * **Streamlit:** For the interactive web interface.
@@ -56,8 +54,8 @@ This project was built using **Python** and deployed via **Streamlit Cloud**.
 
 ---
 
-## ⚙️ How to Run Locally
-To run this project on your local machine, follow these steps:
+## How to Run Locally
+To run this project on a local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
